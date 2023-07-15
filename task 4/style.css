@@ -1,0 +1,112 @@
+body{
+    background-color:#3B3251;
+    background-image: url(images/93c6aaa4424c468db1c9f7904eb400d8.gif );
+    background-repeat: no-repeat;
+    background-size: 62vw 100vh;
+    
+
+}
+.container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;
+    height: 100vh;
+    border-radius:4vw;
+    background-color:#fbfef4; 
+}
+.container1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 100vh;
+}
+.content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 90%;
+    display: inline-block;
+}
+.content1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 90%;
+    color: white;
+    font-size:3.5vw;
+}
+input{
+    width: 20vw;
+    border-radius: 40px;
+    height: 35px; 
+    border:1px solid #3B3251;
+    font-size: 16px;
+    color: #65446D;
+    padding: 20px ;
+    background-color: #f3fce2e0;
+    display: inline-block;
+
+}
+#gender{
+    width:1vw;
+     color: #65446D;
+}
+*{
+   font-family:  Georgia; 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#country{
+    width: 20vw;
+    padding: 10px; 
+    border:1px solid #3B3251;
+    border-radius: 40px;
+    color: #75507e;
+    font-size: 16px;
+    background-color: #f3fce2e0;
+}
+::placeholder{
+    color: #3b325189;
+}
+#signup{
+    width: 10vw;
+    padding: 10px 10px 30px 10px; 
+    font-size: larger;
+    background-color: #AD4977;
+    color: white;
+    text-align: center;
+}
+#button{
+    width: 1.5vw;
+    border-radius: 40px;
+    height: 35px; 
+    border:1px solid #3B3251;
+    font-size: 16px;
+    color: #65446D;
+    padding: 20px ;
+    vertical-align: middle;
+}
+#gender{
+    color: #65446D;
+    font-size: 20px;
+    
+}
+/* i{ 
+    width: 5vw;
+    position: absolute;
+    font-size:1.5vw;
+    margin-bottom: 1vh;
+    color:#ad497870;
+    margin-right: 5vw;
+    padding-right: 4vw;
+    align-self: center;
+    
+}
+*/

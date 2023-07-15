@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url(images/x2L1hq.webp);
+            background-size: cover;
+        }
+        *{
+            font-family: fantasy;
+        }
+    </style>   
+</head>
+<body>
+    <table style="width:100vw ; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; background-color: black;"> 
+        <tr>
+            <td style="text-align: left; width: 50%;"><p style="font-size:4.1vw; color:white; margin-left:40px ;">
+                Ojects in our Solar system</p>
+        <p style="font-size:2vw; color:white;margin-left:40px">Click on any object for more information</p></td>
+            <th>
+                <img src="images/solarsystem.jpg" usemap="#image-map">
+
+                <map name="image-map">
+                    <area target="_blank" alt="Venus" title="Venus" href="https://solarsystem.nasa.gov/planets/venus/overview/" coords="128,31,113,20,88,23,79,33,73,60,79,67,88,78,100,82,110,82,122,75,125,63,135,47" shape="poly">
+                    <area target="_blank" alt="Earth" title="Earth" href="https://solarsystem.nasa.gov/planets/earth/overview/" coords="152,45,167,43,179,49,187,61,191,75,187,87,175,95,172,107,153,111,142,106,131,92,128,68,134,50" shape="poly">
+                    <area target="_blank" alt="Mars" title="Mars" href="https://solarsystem.nasa.gov/planets/mars/overview/" coords="209,90,219,93,228,108,229,124,226,131,214,141,196,147,182,143,172,125,171,106,185,90,205,87" shape="poly">
+                    <area target="_blank" alt="Jupiter" title="Jupiter" href="https://solarsystem.nasa.gov/planets/jupiter/overview/" coords="224,141,206,147,193,155,184,169,177,188,179,205,193,220,211,226,224,239,235,239,249,235,268,223,279,204,280,177,271,161,257,148,241,142" shape="poly">
+                    <area target="_blank" alt="Saturn" title="Saturn" href="https://solarsystem.nasa.gov/planets/saturn/overview/" coords="182,224,170,225,151,217,134,209,121,206,118,213,122,222,131,236,147,248,152,255,152,260,154,267,169,277,174,287,177,297,197,304,210,300,217,298,227,303,241,309,252,314,264,318,272,317,265,305,252,289,242,281,234,271,230,254,221,238,210,228,196,224" shape="poly">
+                    <area target="_blank" alt="Uranus" title="Uranus" href="https://solarsystem.nasa.gov/planets/uranus/overview/" coords="146,269,129,270,116,276,119,289,126,314,122,324,131,330,148,334,165,325,173,312,176,297,169,277,160,271,153,270" shape="poly">
+                    <area target="_blank" alt="Neptune" title="Neptune" href="https://solarsystem.nasa.gov/planets/neptune/overview/" coords="81,312,42" shape="circle">
+                    <area target="_blank" alt="Moon" title="Moon" href="https://solarsystem.nasa.gov/moons/earths-moon/overview/" coords="211,40,20" shape="circle">
+                    <area target="_blank" alt="Mercury" title="Mercury" href="https://solarsystem.nasa.gov/planets/mercury/overview/" coords="60,16,56,28,58,41,59,57,44,41,47,22" shape="poly">
+                </map>
+</th></tr></table> 
+</body>
+</html>
